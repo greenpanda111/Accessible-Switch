@@ -2,7 +2,7 @@
 CAD files to construct an accessible switch
 
 Currently in progress:
-\nTop button CAD
+Top button CAD
 PCB for button and possible debouncing
 Small calibrations to ensure smooth ring locking
 Cable routing channels
