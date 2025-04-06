@@ -489,7 +489,7 @@
       "plot": "../Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../3D parts/AccessibleSwitches.step",
       "svg": "",
       "vrml": ""
     },
