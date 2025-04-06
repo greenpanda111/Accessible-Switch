@@ -707,10 +707,22 @@
 		)
 	)
 	(junction
+		(at 180.34 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "088ed585-7c97-407b-8dc4-8b472e64c270")
+	)
+	(junction
 		(at 180.34 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "252c229d-c02e-40d0-bb3b-678010e8d13b")
+	)
+	(junction
+		(at 165.1 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fcaa2d4-bc48-4ade-bfdd-6ddcfde8a08c")
 	)
 	(junction
 		(at 165.1 88.9)
@@ -727,6 +739,26 @@
 			(type default)
 		)
 		(uuid "12008a4c-a3f0-4fec-b9e6-5b901504746f")
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa59fad-5386-475e-bc5d-e1e942371fd4")
+	)
+	(wire
+		(pts
+			(xy 165.1 96.52) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52580abd-7d18-4929-a035-41b569365556")
 	)
 	(wire
 		(pts
@@ -750,7 +782,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 165.1 99.06)
+			(xy 165.1 88.9) (xy 165.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -760,7 +792,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 99.06) (xy 180.34 88.9)
+			(xy 165.1 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ce09e0-4265-48a6-98b0-4787874b2c73")
+	)
+	(wire
+		(pts
+			(xy 180.34 99.06) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -777,6 +819,16 @@
 			(type default)
 		)
 		(uuid "e42cfd10-161f-4a26-9b34-e46f046d6465")
+	)
+	(wire
+		(pts
+			(xy 176.53 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb12e68b-f2d4-49f6-bcf8-e9900486a003")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -1144,7 +1196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 176.53 87.9348 0)
 			(effects
 				(font
@@ -1181,6 +1233,73 @@
 			(project ""
 				(path "/ba6d9f2d-ef3e-4e6a-a138-610a5f2bdda8"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e31dc29c-a56b-4f7f-885b-98d687aab918")
+		(property "Reference" "C2"
+			(at 172.72 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 172.72 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 176.53 95.5548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7107e73d-ee49-4d3c-bdc7-82682cedc2ee")
+		)
+		(pin "2"
+			(uuid "b2654537-5504-4b4c-bee2-17731752213f")
+		)
+		(instances
+			(project "AccessibleSwitches"
+				(path "/ba6d9f2d-ef3e-4e6a-a138-610a5f2bdda8"
+					(reference "C2")
 					(unit 1)
 				)
 			)
