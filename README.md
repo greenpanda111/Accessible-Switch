@@ -11,6 +11,6 @@ Onshape files here: https://cad.onshape.com/documents/298bde2cf99925c17ee02d94/w
 
 Micro Switch: https://uk.farnell.com/omron-electronic-components/d2fs-f-n/microswitch-plunger-spst-0-1a/dp/2402441
 
-![alt text](https://github.com/greenpanda111/Accessible-Switch/blob/main/SwitchPCBImage.png?raw=true)
+![alt text](https://github.com/greenpanda111/Accessible-Switch/blob/main/Images/SwitchPCBImage.png?raw=true)
 
-![alt text](https://github.com/greenpanda111/Accessible-Switch/blob/main/CADImage.png?raw=true)
+![alt text](https://github.com/greenpanda111/Accessible-Switch/blob/main/Images/CADImage.png?raw=true)
