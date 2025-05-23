@@ -8,7 +8,7 @@ PCBs can be ordered through [JLCPCB](https://jlcpcb.com/) with default parameter
 Onshape files here: https://cad.onshape.com/documents/298bde2cf99925c17ee02d94/w/1b669208b51cf1bc021c468f/e/d7502f0e0361710259ea8cca 
 
 
-<img src="https://github.com/greenpanda111/Accessible-Switch/blob/main/Images/SwitchPCBImage.png?raw=true" alt="PCB" width="300"/>
+<img src="https://github.com/greenpanda111/Accessible-Switch/blob/main/Images/SwitchPCBImage.png" alt="PCB" width="300"/>
 
 <img src="https://github.com/greenpanda111/Accessible-Switch/blob/main/Images/switch.png?raw=true" alt="switch CAD" width="300"/>
 
