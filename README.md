@@ -10,7 +10,7 @@ Accessible switches allow people with disabilities to interact with toys, games,
 <img src="https://github.com/greenpanda111/Accessible-Switch/blob/main/Images/Switch_parts_cropped.png" alt="Switch parts" width="300"/>
 </div>
 
-The switch is assembled from three 3D printed parts, custom PCB, [microswitch](https://uk.farnell.com/omron-electronic-components/d2fs-f-n/microswitch-plunger-spst-0-1a/dp/2402441), 3.5mm mono jack cable, and three springs.
+The switch is assembled from three 3D printed parts, custom PCB, [microswitch](https://uk.farnell.com/omron-electronic-components/d2fs-f-n/microswitch-plunger-spst-0-1a/dp/2402441), [3.5mm mono jack cable](https://www.amazon.co.uk/RUNCCI-YUN-3-5mm-soldering-Repairing-Cables/dp/B0CWQN1W4J?crid=MMFTKL1YISWD&dib=eyJ2IjoiMSJ9.itFXnqrHVudY9Z76Te3JtlT01_a-7Km_P17nFm4Sf2gwNhseV51UFiYnosFNDR1xwQ9gm_AzfMkGYtUo6osAB6a1qEl-Sp-rxNtT5IVoGAxn-zgHXx88rj1oECnSUbXHlrZ6uehkS7qUX9E-YJaPP2mTWnB9Y31Y1yASitDzZAd5OjtuuSsEVc0NdKAGMeONEOkIs0AsbOu17C1xOijw-v_hRG6Owl-uLl4tAFDs8N8.JGRQKBqizKdxFqpfQaw0XqMhGhysNfbUMtKBu0fcRTM&dib_tag=se&keywords=3.5mm+mono+jack+cable+solder&qid=1748028946&sprefix=3.5mm+mono+jack+cable+solder%2Caps%2C100&sr=8-5), and three springs.
 
 PCBs can be ordered through [JLCPCB](https://jlcpcb.com/) with default parameters. Simply download the gerbers.zip file and upload it to JLCPCB. The PCBs only require three pins soldering for the microswitch, and the two mono jack wires. This should be accomplishable by someone with minimal soldering experience. The PCBs also have debouncing capacitor support, but these are not neccessary. A 100uA capacitor would be suitable, however.
 
